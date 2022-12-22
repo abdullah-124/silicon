@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="utilitiy/bootstrap.min.css" />
+    <link rel="stylesheet" href="index.css" />
+    <title>silicon</title>
+  </head>
+  <body class="">
+    <!-- //nav -->
+    <header class="px-3">
+      <div class="silicon-nav sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-expand-md navbar-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand logo text-primary" href="#">
+              <img class="img-fluid logo" src="img/logo.png" alt="" />
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#features">Features</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#products">Products</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+      <div class="container">
+        <div
+          class="mx-auto row row-cols-1 row-cols-lg-2 row-cols-md-2 align-items-center mt-5"
+        >
+          <div class="col my-4">
+            <article>
+              <h6 class="sm-title">Trendy Collections</h6>
+              <h1 class="title">Building a better you</h1>
+              <div class="clickImg">
+                <img
+                  onclick="change('img/model-0.png')"
+                  class="img-fluid"
+                  width="60"
+                  src="img/model-0.png"
+                  alt=""
+                />
+                <img
+                  onclick="change('img/model-1.png')"
+                  class="img-fluid"
+                  width="60"
+                  src="img/model-1.png"
+                  alt=""
+                />
+                <img
+                  onclick="change('img/modelb-1.png')"
+                  class="img-fluid"
+                  width="60"
+                  src="img/modelb-1.png"
+                  alt=""
+                />
+                <img
+                  onclick="change('img/model-2.png')"
+                  class="img-fluid"
+                  width="60"
+                  src="img/model-2.png"
+                  alt=""
+                />
+              </div>
+              <button class="btn-silicon mt-3">Explore Now</button>
+            </article>
+          </div>
+          <div class="col p=0">
+            <img
+              id="banner-img"
+              class="img-fluid h-100"
+              src="img/model-1.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- trendyCollection -->
+    <section id="features" class="container my-5">
+      <h2 class="fw-bold">Styles</h2>
+      <p>Shop the latest trendy fashion outfits at ecstasy</p>
+      <div class="features py-5 mt-5">
+        <div class="d-flex flex-wrap mx-auto">
+          <div class="feature-card mx-auto">
+            <img src="img/dress-8.png" alt="" class="img-fluid" />
+          </div>
+          <div class="feature-card mx-auto">
+            <img src="img/dress-7.png" alt="" class="img-fluid" />
+          </div>
+          <div class="feature-card mx-auto">
+            <img src="img/dress-6.png" alt="" class="img-fluid" />
+          </div>
+          <div class="feature-card mx-auto">
+            <img src="img/dress-1.png" alt="" class="img-fluid" />
+          </div>
+          <div class="feature-card mx-auto">
+            <img src="img/dress-2.png" alt="" class="img-fluid" />
+          </div>
+          <div class="feature-card mx-auto">
+            <img src="img/dress-3.png" alt="" class="img-fluid" />
+          </div>
+          <div class="feature-card mx-auto">
+            <img src="img/dress-4.png" alt="" class="img-fluid" />
+          </div>
+          <div class="feature-card mx-auto">
+            <img src="img/dress-5.png" alt="" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container m-5 p-5 text-center border mx-auto" id="blog">
+      <h1>Blog load here</h1>
+    </section>
+    <!-- //product  -->
+    <section id="products" class="container my-5">
+      <div>
+        <h4 class="my-5 fw-bold text-black">Trending Products</h4>
+        <div class="row mx-auto">
+          <div class="col-lg-3 col-1">
+            <div class="p-card">
+              <img
+                class="img-fluid"
+                src="img/products/26263-3-nike-shoes-transparent-image.png"
+                alt=""
+              />
+              <h5>Nike Shoe</h5>
+              <p>Lorem ipsum dolor sit amet.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <h6>29 $</h6>
+                <button class="btn-silicon">Buy</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-1">
+            <div class="p-card">
+              <img
+                class="img-fluid"
+                src="img/products/165853-cosmetics-beauty-hd-image-free.png"
+                alt=""
+              />
+              <h5>Cosmetic</h5>
+              <p>Lorem ipsum dolor sit amet.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <h6>20 $</h6>
+                <button class="btn-silicon">Buy</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-1">
+            <div class="p-card">
+              <img
+                class="img-fluid"
+                src="img/products/26165-1-black-shoe.png"
+                alt=""
+              />
+              <h5>Black Shoe</h5>
+              <p>Lorem ipsum dolor sit amet.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <h6>50 $</h6>
+                <button class="btn-silicon">Buy</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-1">
+            <div class="p-card">
+              <img
+                class="img-fluid"
+                src="img/products/26185-1-men-sunglass-free-download.png"
+                alt=""
+              />
+              <h5>Cap</h5>
+              <p>Lorem ipsum dolor sit amet.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <h6>12 $</h6>
+                <button class="btn-silicon">Buy</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- //Footer -->
+    <br />
+    <br /><br />
+    <footer class="bg-dark">
+      <div class="tryBox container">
+        <h3>Stay With Us</h3>
+        <div class="d-flex flex-wrap justify-content-between">
+          <p>&check; Fast Delivery</p>
+          <p>&check; Safe Payment</p>
+          <p>&check; Trending Products</p>
+          <p>&check; Cash On Delivery</p>
+          <p>&check; Support</p>
+        </div>
+      </div>
+      <div class="row container-fluid">
+        <div class="col-6 col-lg-2 footer-item">
+          <p class="text-secondary">Get Connected</p>
+          <a href="">Connectivity</a>
+          <a href="">Dashboard</a>
+          <a href="">Silicon Nova</a>
+        </div>
+        <div class="col-6 col-lg-2 footer-item">
+          <p class="text-secondary">Resources</p>
+          <a href="">Support</a>
+          <a href="">Library</a>
+          <a href="">Silicon Nova</a>
+        </div>
+        <div class="col-6 col-lg-2 footer-item">
+          <p class="text-secondary">Developer</p>
+          <a href="">Forum</a>
+          <a href="">Project</a>
+          <a href="">Open source</a>
+        </div>
+        <div class="col-6 col-lg-2 footer-item">
+          <p class="text-secondary">Pricing</p>
+          <a href="">Connectivity</a>
+          <a href="">Dashboard</a>
+          <a href="">Silicon Nova</a>
+        </div>
+        <div class="col-6 col-lg-2 footer-item">
+          <p class="text-secondary">Company</p>
+          <a href="">Connectivity</a>
+          <a href="">Dashboard</a>
+          <a href="">Carrier</a>
+          <a href="">Partnership</a>
+        </div>
+        <div class="col-6 col-lg-2 footer-item">
+          <p class="text-secondary">Social</p>
+          <a href="">Twitter</a>
+          <a href="">Facebook</a>
+          <a href="">Linkedin</a>
+          <a href="">Instagram</a>
+        </div>
+      </div>
+    </footer>
+    <script src="utilitiy/bootstrap.bundle.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
