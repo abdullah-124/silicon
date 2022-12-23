@@ -1,0 +1,87 @@
+[
+    {
+        "id": 1,
+        "img": "img/products/high-hill.png",
+        "name": "High Hill",
+        "price": 20,
+        "desc": "Lorem epsem sit doller emmets. "
+    },
+    {
+        "id": 2,
+        "img": "img/products/blueSnikers.png",
+        "name": "Blue Snickers",
+        "price": 55,
+        "desc": "Lorem epsem sit doller emmets. "
+    },
+    {
+        "id": 3,
+        "img": "img/products/crim-1.png",
+        "name": "Organic Crim",
+        "price": "gm/5",
+        "desc": "Lorem epsem sit doller emmets. "
+    },
+    {
+        "id": 4,
+        "img": "img/products/foundation.png",
+        "name": "Foundation",
+        "price": "50gm/ 10",
+        "desc": "Lorem epsem sit doller emmets. "
+    },
+    {
+        "id": 5,
+        "img": "img/products/gray-snikers.png",
+        "name": "Gray Snickers",
+        "price": 35,
+        "desc": "Lorem epsem sit doller emmets. "
+    },
+    {
+        "id": 6,
+        "img": "img/products/mackup.png",
+        "name": "Mekup Box",
+        "price": 100,
+        "desc": "Lorem epsem sit doller emmets. "
+    },
+    {
+        "id": 7,
+        "img": "img/products/sunGlass.png",
+        "name": "Black Glass",
+        "price": 6,
+        "desc": "Lorem epsem sit doller emmets. "
+    },
+    {
+        "id": 8,
+        "img": "img/products/redHighHills.png",
+        "name": "High Hills Red",
+        "price": 80,
+        "desc": "Lorem epsem sit doller emmets. "
+    },
+    {
+        "id": 9,
+        "img": "img/products/crim-2.png",
+        "name": "Leap Jell",
+        "price": 3,
+        "desc": "Lorem epsem sit doller emmets. "
+    },
+    {
+        "id": 10,
+        "img": "img/products/neckless.png",
+        "name": "NeckLess",
+        "price": 180,
+        "desc": "Lorem epsem sit doller emmets. "
+    },
+    {
+        "id": 11,
+        "img": "img/products/nikeSnikers.png",
+        "name": "Nike Snickers",
+        "price": 85,
+        "desc": "Lorem epsem sit doller emmets. "
+    },
+    {
+        "id": 2,
+        "img": "img/products/blackNike.png",
+        "name": "Black Snickers",
+        "price": 49,
+        "desc": "Lorem epsem sit doller emmets. "
+    }
+
+]

@@ -26,6 +26,18 @@ body::-webkit-scrollbar-thumb {
   color: #fff;
   font-weight: 400;
 }
+.btn-silicon-outline {
+  background: linear-gradient(white, white) padding-box,
+              linear-gradient(90deg, #8dd0fa 1%, #f880e4 100%);
+  border-radius: 12px;
+  padding: .4rem 1.5rem;
+  border: 1px solid transparent;
+}
+.btn-silicon:hover,.btn-silicon-outline:hover{
+  background:linear-gradient(54deg, #f880e4 1%, #8dd0fa 100%);
+  border: 1px solid #fff;
+  transition: color 1s;
+}
 .silicon-nav{
   background-color: transparent;
   backdrop-filter: blur(15px);
@@ -36,10 +48,12 @@ body::-webkit-scrollbar-thumb {
   width: 5rem;
 }
 header{
-  background: linear-gradient(54deg, rgba(183, 227, 255, 0.742) 1%, rgba(253, 169, 239, 0.628) 100%),url('img/bg-2.jpg')no-repeat;
+  background: linear-gradient(54deg, #b7e3ffbd 1%, rgba(253, 169, 239, 0.628) 100%),url('img/bg-2.jpg')no-repeat;
   background-size: cover;
   /* backdrop-filter: blur(5px); */
-  min-height: 100vh;
+  padding-top: 20px;
+  max-height: 100vh;
+  overflow: hidden;
 }
 header .title{
   font-size: 4.5rem;
@@ -57,26 +71,32 @@ header .sm-title{
 }
 
 /* features */
-.features,.p-card{
-  box-shadow:0px 1px 100px 49px #e3e1e17a ;
-  border-radius: 8px;
+.wave{
+  height: 100px;
+  background: url("img/wave.svg") no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .feature-card{
-  width: 60px;
+  width: 100px;
+  margin: 5px 10px;
 }
 /* products */
 .p-card{
+  box-shadow:0px 1px 100px 49px #e3e1e17a ;
+  border-radius: 12px;
   overflow: hidden;
   padding: 10px;
   display: flex;
-  justify-content: space-around;
-  align-items: stretch;
   flex-direction: column;
-  
-  height: 20rem;
+  margin: 10px;
+  height: 18rem;
 }
 .p-card img{
-  width: auto;
+  margin: auto;
+  width: 80%;
+  max-height: 60%;
+  overflow: hidden;
 }
 
 /* footer */
