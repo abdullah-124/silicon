@@ -39,8 +39,8 @@ body::-webkit-scrollbar-thumb {
   transition: color 1s;
 }
 .silicon-nav{
-  background-color: transparent;
-  backdrop-filter: blur(15px);
+  /* background-color: transparent;
+  backdrop-filter: blur(15px); */
 }
 
 .logo{
@@ -71,11 +71,11 @@ header .sm-title{
 }
 
 /* features */
-.wave{
-  height: 100px;
-  background: url("img/wave.svg") no-repeat;
+#features{
+  background: linear-gradient(to bottom, #afd3e845, #d7b8d22d),url("img/bg.jpg") no-repeat;
   background-position: center;
   background-size: cover;
+  transform: translateY(-5px);
 }
 .feature-card{
   width: 100px;
