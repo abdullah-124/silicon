@@ -3,7 +3,7 @@ const change =(img) =>{
 }
 const productsContainer = document.getElementById('product-container');
 const loadMore = () =>{
-    fetch('/product.json')
+    fetch('./product.json')
     .then(res => res.json())
     .then(data => showCard(data))
 }
