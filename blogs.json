@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "name" : "lorem ipsum dollar sit ammet .",
+        "blogImg" : "img/blogs/1.jpg",
+        "authorName" : "Jhon Doe",
+        "authorImg" : "img/author-1.png",
+        "postTime" : "2h",
+        "keyword" : ["Fashion","Beauty","Winter"],
+        "postViews" : "4.2k"
+    },
+    {
+        "id": 2,
+        "name" : "lorem ipsum dollar sit ammet .",
+        "blogImg" : "img/blogs/2.jpg",
+        "authorName" : "Alexa",
+        "authorImg" : "img/author-2.png",
+        "postTime" : "2day",
+        "keyword" : ["Fashion","Beauty","Winter"],
+        "postViews" : "2.2k"
+    },
+    {
+        "id": 3,
+        "name" : "lorem ipsum dollar sit ammet .",
+        "blogImg" : "img/blogs/3.jpg",
+        "authorName" : "Jhon Doe",
+        "authorImg" : "img/author-1.png",
+        "postTime" : "3h",
+        "keyword" : ["Fashion","Beauty","Winter"],
+        "postViews" : "3.2k"
+    },
+    {
+        "id": 4,
+        "name" : "lorem ipsum dollar sit ammet .",
+        "blogImg" : "img/blogs/4.jpg",
+        "authorName" : "Jhon Doe",
+        "authorImg" : "img/author-1.png",
+        "postTime" : "2h",
+        "keyword" : ["Fashion","Beauty","Winter"],
+        "postViews" : "4.2k"
+    },
+    {
+        "id": 5,
+        "name" : "lorem ipsum dollar sit ammet .",
+        "blogImg" : "img/blogs/5.jpg",
+        "authorName" : "Alexa",
+        "authorImg" : "img/author-2.png",
+        "postTime" : "3h",
+        "keyword" : ["Fashion","Beauty","Winter"],
+        "postViews" : "23.2k"
+    },
+    {
+        "id": 6,
+        "name" : "lorem ipsum dollar sit ammet .",
+        "blogImg" : "img/blogs/6.jpg",
+        "authorName" : "Jhon Doe",
+        "authorImg" : "img/author-1.png",
+        "postTime" : "2h",
+        "keyword" : ["Fashion","Beauty","Winter"],
+        "postViews" : "5.2k"
+    },
+    {
+        "id": 7,
+        "name" : "lorem ipsum dollar sit ammet .",
+        "blogImg" : "img/blogs/7.jpg",
+        "authorName" : "Alexa",
+        "authorImg" : "img/author-2.png",
+        "postTime" : "2m",
+        "keyword" : ["Fashion","Beauty","Winter"],
+        "postViews" : "34.2k"
+    },
+    {
+        "id": 8,
+        "name" : "lorem ipsum dollar sit ammet .",
+        "blogImg" : "img/blogs/8.jpg",
+        "authorName" : "Jhon Doe",
+        "authorImg" : "img/author-1.png",
+        "postTime" : "1d",
+        "keyword" : ["Fashion","Beauty","Winter"],
+        "postViews" : "7.2k"
+    },
+    {
+        "id": 9,
+        "name" : "lorem ipsum dollar sit ammet .",
+        "blogImg" : "img/blogs/9.jpg",
+        "authorName" : "Jhon Doe",
+        "authorImg" : "img/author-1.png",
+        "postTime" : "2h",
+        "keyword" : ["Fashion","Beauty","Winter"],
+        "postViews" : "4.2k"
+    },
+    {
+        "id": 10,
+        "name" : "lorem ipsum dollar sit ammet .",
+        "blogImg" : "img/blogs/1.jpg",
+        "authorName" : "Alexa",
+        "authorImg" : "img/author-2.png",
+        "postTime" : "2m",
+        "keyword" : ["Fashion","Beauty","Winter"],
+        "postViews" : "42.2k"
+    },
+    {
+        "id": 11,
+        "name" : "lorem ipsum dollar sit ammet .",
+        "blogImg" : "img/blogs/11.jpg",
+        "authorName" : "Jhon Doe",
+        "authorImg" : "img/author-1.png",
+        "postTime" : "2h",
+        "keyword" : ["Fashion","Beauty","Winter"],
+        "postViews" : "41.2k"
+    },
+    {
+        "id": 12,
+        "name" : "lorem ipsum dollar sit ammet .",
+        "blogImg" : "img/blogs/12.jpg",
+        "authorName" : "Jhon Doe",
+        "authorImg" : "img/author-1.png",
+        "postTime" : "2h",
+        "keyword" : ["Fashion","Beauty","Winter"],
+        "postViews" : "4.2k"
+    }
+]
