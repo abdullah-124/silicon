@@ -7,12 +7,10 @@ const change = (img) => {
   }, 1200);
 };
 const productsContainer = document.getElementById("product-container");
-const loadMore = () => {
-  fetch("./product.json")
-    .then((res) => res.json())
-    .then((data) => {
-      showCard(data);
-    });
+async function loadMore(){
+  const res = await fetch("./product.json",{mode: "no-cors"})
+  const data = await res.json();
+  showCard(data);
 };
 const showCard = (data) => {
   productsContainer.innerHTML = data
@@ -42,10 +40,11 @@ loadMore();
 
 const showBlogs = (blogs) => {
   const blogsContainer = document.getElementById("blog-container");
+  let ind = Math.floor(Math.random() * 6);
+  console.log(ind);
   for (let i = 0; i < 4; i++) {
-    let ind = Math.floor(Math.random() * 10);
     const { name, blogImg, authorName, authorImg, keyword, postViews,postTime } =
-      blogs[ind];
+      blogs[ind+i];
     blogsContainer.innerHTML += `
     <div class="col mx-auto my-3 ">
           <div class="card-blog">
@@ -75,9 +74,9 @@ const showBlogs = (blogs) => {
   }
 };
 
-function loadBlogs() {
-  fetch("./blogs.json")
-    .then((res) => res.json())
-    .then((data) => showBlogs(data));
+async function loadBlogs() {
+  const res = await fetch("./blogs.json")
+  const data = await res.json();
+  showBlogs(data);
 }
 loadBlogs();

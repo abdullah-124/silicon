@@ -1,0 +1,57 @@
+<div class="features justify-content-center align-items-center">
+          <div class="  d-flex justify-content-evenly">
+            <img
+              src="img/trendy/dress-1.png"
+              alt=""
+              class="img-fluid feature-card"
+            />
+          </div>
+          <div class="  d-flex justify-content-evenly">
+            <img
+              src="img/trendy/dress-2.png"
+              alt=""
+              class="img-fluid feature-card"
+            />
+            <img
+              src="img/trendy/dress-3.png"
+              alt=""
+              class="img-fluid feature-card"
+            />
+          </div>
+          <div class="  d-flex justify-content-evenly">
+            <img
+              src="img/trendy/dress-4.png"
+              alt=""
+              class="img-fluid feature-card"
+            />
+            <img
+              src="img/trendy/dress-5.png"
+              alt=""
+              class="img-fluid feature-card"
+            />
+            <img
+              src="img/trendy/dress-6.png"
+              alt=""
+              class="img-fluid feature-card"
+            />
+          </div>
+          <div class="  d-flex justify-content-evenly">
+            <img
+              src="img/trendy/dress-7.png"
+              alt=""
+              class="img-fluid feature-card"
+            />
+            <img
+              src="img/trendy/dress-8.png"
+              alt=""
+              class="img-fluid feature-card"
+            />
+          </div>
+          <div class="  d-flex justify-content-evenly">
+            <img
+              src="img/trendy/dress-9.png"
+              alt=""
+              class="img-fluid feature-card"
+            />
+          </div>
+        </div>
