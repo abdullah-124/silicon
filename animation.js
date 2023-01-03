@@ -1,6 +1,6 @@
 const boxes = document.querySelectorAll('.animate');
 window.addEventListener("scroll",check)
-// check();
+check();
 function check(){
     const trigger = window.innerHeight /5*4;
     boxes.forEach(box => {
