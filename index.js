@@ -20,7 +20,7 @@ const showCard = (data) => {
     <div class="col-lg-3 col-12">
     <div class="p-card">
       <img
-        class="img-fluid"
+        class="img-fluid object-fit-cover"
         src=${card.img}
         alt=""
       />
@@ -48,7 +48,7 @@ const showBlogs = (blogs) => {
     blogsContainer.innerHTML += `
     <div class="col mx-auto my-3 ">
           <div class="card-blog">
-            <img class="card_img img-fluid" src=${blogImg} alt="" />
+            <img class="card_img img-fluid object-fit-cover" src=${blogImg} alt="" />
             <article class="p-2">
               <div class="keyword my-2">
                 ${keyword.map(k => `<a class="btn-k">${k}</a>`).join("")}
