@@ -9,8 +9,5 @@ function check(){
         {
             box.classList.add('slide')
         }
-        else{
-            box.classList.remove('slide');
-        }
     })
 }
